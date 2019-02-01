@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Information form</title>
+	<link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h2>Registration Form For More Recipes!!!</h2>
+
+	<form>
+		<!--Text fields-->
+		First Name:<br>
+		<input type="text" required size="45"> <br>
+    Last Name:<br>
+    <input type="text" required size="45"><br>
+      Email: <br>  
+    <input type="email" size="45" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  required><br><br>
+    Do you want to receive email alert from us for new recipes? <br>
+    <input name = "alert" type="radio">Yes
+    <input type="radio" name = "alert">No<br>
+   <br>
+
+
+    Please let us know what type of cuisines interest you?<br>
+    <input type="checkbox"> Chinese 
+    <input type="checkbox"> Vietnamese 
+    <input type="checkbox"> Thai 
+    <input type="checkbox"> Japanese 
+    <input type="checkbox"> Italian <br>
+    <br>
+    
+      <!--Text Area-->
+    Please let us know if you have any questions or recipe suggestions you like to see next. <br>
+    <textarea name="experience"  cols="60" placeholder="Write something">
+    </textarea><br>
+
+
+    <input type="submit"><br>
+   
+  </form>
+
+<a href="index.html"> Back to recipe page</a>
+
+
+
+  </body>
+</html>
